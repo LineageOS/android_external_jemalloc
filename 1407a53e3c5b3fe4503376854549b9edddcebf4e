@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_c348d4ce",
+        "filename": "include/jemalloc/internal/nstime.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-02-05T22:46:12Z",
+      "side": 1,
+      "message": "For reference, this macro expands this to (uint64_t)18446744072ULL",
+      "range": {
+        "startLine": 10,
+        "startChar": 23,
+        "endLine": 10,
+        "endChar": 26
+      },
+      "revId": "1407a53e3c5b3fe4503376854549b9edddcebf4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_e33bd036",
+        "filename": "src/arena.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1355,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-02-05T22:46:12Z",
+      "side": 1,
+      "message": "Dunno why they expanded this instead of just casting decay_time the second time.",
+      "revId": "1407a53e3c5b3fe4503376854549b9edddcebf4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
